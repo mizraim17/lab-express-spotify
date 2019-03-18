@@ -1,0 +1,14 @@
+<div class="col m3">
+    <div class="card "  >
+        <div class="card-image">
+            <img class="responsive-img" src="{{#if images.0.url}} {{images.0.url}} {{else}} https://cdn3.iconfinder.com/data/icons/black-easy/512/535106-user_512x512.png {{/if}}"  alt="{{name}}">
+            <span class="card-title"> {{total_tracks}}  </span>
+        </div>
+        <div class="card-content">
+            <h5>{{name}}</h5>
+        </div>
+        <div class="card-action">
+            <a class="waves-effect waves-light btn"  href="/tracks/{{id}}">tracks</a>
+        </div>
+    </div>
+</div>

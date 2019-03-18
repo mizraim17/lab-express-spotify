@@ -1,0 +1,20 @@
+
+<table>
+    <thead>
+    <tr class="white-text">
+        <th>Tracks</th>
+        <th>Preview song  </th>
+    </tr>
+    </thead>
+
+    <tbody>
+        <tr>
+            {{#each tracks}}
+                {{> partialSong this}}
+            {{/each}}
+        </tr>
+    </tbody>
+</table>
+
+
+
